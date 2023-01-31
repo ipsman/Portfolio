@@ -10,6 +10,7 @@ module.exports = {
   ],
   theme: {
     screens: {
+      xsm: '376px',
       sm: '480px',
       md: '768px',
       lg: '976px',
@@ -28,6 +29,7 @@ module.exports = {
       },
       animation: {
         blob: "blob 7s infinite",
+        bounceSkew: "bounceSkew 1s infinite",
       },
       keyframes: {
         blob: {
@@ -42,6 +44,15 @@ module.exports = {
           },
           "100%": {
             transform: "tranlate(0px, 0px) scale(1)",
+          },
+          
+        },
+        bounceSkew: {
+          "0%, 100%": {
+            transform: "translateY(-25%)"
+          },
+          "50%": {
+              transform: "scale(1, 0.9)",
           },
         },
       },
