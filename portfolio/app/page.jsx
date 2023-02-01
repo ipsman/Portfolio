@@ -10,7 +10,7 @@ export default function Home(){
     <main className='h-screen w-screen font-raleway font-thin scroll-smooth text-white '>
       <NavBar/>
       <LangSelect/>
-      <div className="absolute sm:relative xsm:relative">
+      <div className="xl:absolute lg:absolute md:absolute sm:relative xsm:relative">
           <Welcome/>
 
           <AboutMe/>
