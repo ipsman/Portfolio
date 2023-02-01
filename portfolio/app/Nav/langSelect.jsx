@@ -19,7 +19,6 @@ export default function LangSelect() {
     
 
     function ChangeLang(num) {
-        
         if(num == 0){
             for (let index = 0; index < 14; index++) {
                 document.getElementById(ids[index]).textContent = en[index];   
