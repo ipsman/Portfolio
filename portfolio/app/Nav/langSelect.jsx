@@ -29,8 +29,6 @@ export default function LangSelect() {
                 document.getElementById(ids[index]).textContent = hu[index];   
             }
         }
-
-        localStorage.setItem("langNum", num);
     }
 
     return(
