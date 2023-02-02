@@ -29,7 +29,9 @@ export default function LangSelect() {
                 document.getElementById(ids[index]).textContent = hu[index];   
             }
         }
+         document.getElementById("langSelect").style.transform = "scale(1,1)";
 
+         langBool = true;
     }
 
     return(
