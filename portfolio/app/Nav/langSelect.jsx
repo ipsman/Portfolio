@@ -14,8 +14,8 @@ export default function LangSelect() {
 
 
     const ids = ["English", "Hungarian", "wTitle", "wTitle2", "abTitle", "abTitle2", "btnTitle", "hTitle", "hTitle2", "eTitle", "homeTitle", "endTitle", "nabTitle", "nhTitle"]
-    const hu = ["Angol","Magyar","Üdvözöllek","Ez a portfolióm","Rólam", "Máté vagyok, 20 éves egyetemista. Jelenleg számítástechnikát tanulok Budapesten, és szabadidőmben indie játékokon dolgozom.", "Töltsd le a CV-m", "Hogyan készült", "Ez a weboldal React js-el és Tailwind-el készült.", "Köszönöm a figyelmet!", "Kezdőlap", "Vége", "Rólam", "Hogyan készült"]
-    const en = ["English","Hungarian","Welcome","This is my portfolio", "About me", "My name is Máté, I'm a 20-year-old university student. I'm currently studying Computer Science in Budapest, Hungary, and working on indie games in my free time.", "Download my CV", "How It's Made", "This website was made with React js and Tailwind.", "Thanks for your attention!", "Home", "End", "About me","How It's Made"]
+    const hu = ["Angol","Magyar","Üdvözöllek","Ez a portfolióm","Rólam", "Máté vagyok, 20 éves egyetemista. Jelenleg számítástechnikát tanulok, és szabadidőmben indie játékokon dolgozom.", "Töltsd le a CV-m", "Hogyan készült", "Ez a weboldal React js-el és Tailwind-el készült.", "Köszönöm a figyelmet!", "Kezdőlap", "Vége", "Rólam", "Hogyan készült"]
+    const en = ["English","Hungarian","Welcome","This is my portfolio", "About me", "My name is Máté, I'm a 20-year-old university student. I'm currently studying Computer Science, and working on indie games in my free time.", "Download my CV", "How It's Made", "This website was made with React js and Tailwind.", "Thanks for your attention!", "Home", "End", "About me","How It's Made"]
 
     function ChangeLang(num) {
         if(num == 0){

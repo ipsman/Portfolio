@@ -20,7 +20,7 @@ const AboutMe = () => {
                     <h2 id="abTitle" className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl duration-700">About me</h2>
                     <p id="abTitle2" className='text-xl md:text-2xl lg:text-3xl xl:text-4xl text-justify'>
                         My name is Máté, I'm a 20-year-old university student. 
-                        I'm currently studying Computer Science in Budapest, Hungary, 
+                        I'm currently studying Computer Science, 
                         and working on indie games in my free time.
                     </p>
 
