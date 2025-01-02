@@ -9,8 +9,8 @@ const NavLinks = () =>{
     const navigation = [
         { name: "Home", id: 'homeTitle', num: '0'},
         { name: "About Me", id: 'nabTitle', num: '1'},
-        { name: "How It's Made", id: 'nhTitle', num: '2'},
-        { name: "End", id: 'endTitle', num: '3'},
+        { name: "My projects", id: 'nhTitle', num: '2'},
+        { name: "Contact", id: 'endTitle', num: '3'},
     ];
 
     const listItems = navigation.map(item =>

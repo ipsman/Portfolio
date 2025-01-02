@@ -13,18 +13,18 @@ export default function LangSelect() {
     );
 
 
-    const ids = ["English", "Hungarian", "wTitle", "wTitle2", "abTitle", "abTitle2", "btnTitle", "hTitle", "hTitle2", "eTitle", "homeTitle", "endTitle", "nabTitle", "nhTitle"]
-    const hu = ["Angol","Magyar","Üdvözöllek","Ez a portfolióm","Rólam", "Máté vagyok, 22 éves egyetemista. Jelenleg számítástechnikát tanulok, és szabadidőmben indie játékokon dolgozom.", "Töltsd le a CV-m", "Hogyan készült", "Ez a weboldal React js-el és Tailwind-el készült.", "Köszönöm a figyelmet!", "Kezdőlap", "Vége", "Rólam", "Hogyan készült"]
-    const en = ["English","Hungarian","Welcome","This is my portfolio", "About me", "My name is Máté, I'm a 22-year-old university student. I'm currently studying Computer Science, and working on indie games in my free time.", "Download my CV", "How It's Made", "This website was made with React js and Tailwind.", "Thanks for your attention!", "Home", "End", "About me","How It's Made"]
+    const ids = ["English", "Hungarian", "wTitle", "wTitle2", "abTitle", "abTitle2", "btnTitle", "hTitle", "hTitle2", "homeTitle", "endTitle", "nabTitle", "nhTitle"]
+    const hu = ["Angol","Magyar","Üdvözöllek","Ez a portfolióm","Rólam", "Máté vagyok, 22 éves egyetemista. Jelenleg számítástechnikát tanulok, és szabadidőmben indie játékokon dolgozom.", "Töltsd le a CV-m", "Projektjeim", "Ez a weboldal React js-el és Tailwind-el készült.", "Kezdőlap", "Névjegy", "Rólam", "Projektjeim"]
+    const en = ["English","Hungarian","Welcome","This is my portfolio", "About me", "My name is Máté, I'm a 22-year-old university student. I'm currently studying Computer Science, and working on indie games in my free time.", "Download my CV", "My projects", "This website was made with React js and Tailwind.", "Home", "Contact", "About me","My projects"]
 
     function ChangeLang(num) {
         if(num == 0){
-            for (let index = 0; index < 14; index++) {
+            for (let index = 0; index < ids.length; index++) {
                 document.getElementById(ids[index]).textContent = en[index];   
             }
         }
         else{
-            for (let index = 0; index < 14; index++) {
+            for (let index = 0; index < ids.length; index++) {
                 document.getElementById(ids[index]).textContent = hu[index];   
             }
         }
