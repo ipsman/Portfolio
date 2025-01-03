@@ -24,14 +24,11 @@ const AboutMe = () => {
       <img
         src="img.png"
         alt="Profile"
-        className="rounded-xl shadow-lg object-cover object-center w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[500px] xl:h-[660px] 2xl:h-[725px]"
+        className="rounded-xl shadow-lg object-cover object-center w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[500px] hd:h-[430px]  xl:h-[675px] fullhd:h-[750px] 2xl:h-[745px]"
       />
-      <div className="grid grid-cols-1 gap-4 sm:gap-6 lg:gap-4">
-        <div className="bg-[#3636363f] p-4 sm:p-5 rounded-xl shadow-lg">
-          <p
-            id="abTitle2"
-            className="text-xs sm:text-sm md:text-base lg:text-base xl:text-xl text-justify"
-          >
+      <div className="grid grid-cols-1 gap-4 sm:gap-6 lg:gap-4 text-xs sm:text-sm md:text-base lg:text-base xl:text-lg hd:text-base  text-justify">
+        <div className="bg-[#3636363f] p-4 hd:p-3 xl:p-3.5 sm:p-5 rounded-xl shadow-lg">
+          <p>
             I am a highly motivated and results-oriented Information Technology
             student eager to contribute my skills and knowledge to a dynamic and
             innovative company. With a strong foundation in software development
@@ -39,35 +36,25 @@ const AboutMe = () => {
             excel in a fast-paced environment.
           </p>
         </div>
-        <div className="bg-[#3636363f] p-4 sm:p-5 rounded-xl shadow-lg">
+        <div className="bg-[#3636363f] p-4 hd:p-3 xl:p-3.5 sm:p-5 rounded-xl shadow-lg">
           <p
-            id="abTitle2"
-            className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-bold text-justify"
+            className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-xl font-bold text-justify"
           >
             Academic Background:
           </p>
-          <p
-            id="abTitle2"
-            className="text-xs sm:text-sm md:text-base lg:text-base xl:text-xl text-justify"
-          >
-            Currently pursuing a degree in Computer Science at Danube
-            University, specializing in software development. Previously, I
-            completed a technical informatics program at Budapest Technical
-            Training Center, where I gained extensive experience in C#, Java,
-            and web development.
+          <p>
+            I am currently studying Computer Science at the University of Dunaújváros, with a specialization in software development. 
+            Previously, I attended at BMSC Bláthy secondary school, where I gained extensive knowledge and hands-on experience in C#, 
+            Java, and web development, forming a solid technical expertise.
           </p>
         </div>
-        <div className="bg-[#3636363f] p-4 sm:p-5 rounded-xl shadow-lg">
+        <div className="bg-[#3636363f] p-4 hd:p-3 xl:p-3.5 sm:p-5 rounded-xl shadow-lg">
           <p
-            id="abTitle2"
-            className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-bold text-justify"
+            className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-xl font-bold text-justify"
           >
             Work Experience:
           </p>
-          <p
-            id="abTitle2"
-            className="text-xs sm:text-sm md:text-base lg:text-base xl:text-xl text-justify"
-          >
+          <p>
             LIDL IT Service & Support: Provided technical support, managed
             inventory, and assisted with troubleshooting.
           </p>
